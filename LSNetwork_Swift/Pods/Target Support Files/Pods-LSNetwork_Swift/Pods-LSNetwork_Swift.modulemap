@@ -1,0 +1,6 @@
+framework module Pods_LSNetwork_Swift {
+  umbrella header "Pods-LSNetwork_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
