@@ -54,12 +54,20 @@
 		512DF2361DF4171E009A5B6E /* LSNetwork_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				512DF2491DF4174E009A5B6E /* LSNetwork_Swift */,
 				512DF2371DF4171E009A5B6E /* AppDelegate.swift */,
 				512DF2391DF4171E009A5B6E /* ViewController.swift */,
 				512DF23B1DF4171E009A5B6E /* Main.storyboard */,
 				512DF23E1DF4171E009A5B6E /* Assets.xcassets */,
 				512DF2401DF4171E009A5B6E /* LaunchScreen.storyboard */,
 				512DF2431DF4171E009A5B6E /* Info.plist */,
+			);
+			path = LSNetwork_Swift;
+			sourceTree = "<group>";
+		};
+		512DF2491DF4174E009A5B6E /* LSNetwork_Swift */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = LSNetwork_Swift;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		512DF22C1DF4171E009A5B6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LS;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = lsrain;
@@ -261,10 +270,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LSNetwork_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsrain.LSNetwork-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -273,10 +284,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LSNetwork_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsrain.LSNetwork-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
