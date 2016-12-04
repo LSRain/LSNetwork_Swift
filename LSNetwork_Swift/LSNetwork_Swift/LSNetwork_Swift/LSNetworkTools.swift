@@ -10,7 +10,7 @@ import UIKit
 import AFNetworking
 
 
-/// 请求方法ENUM
+/// 请求方式ENUM
 ///
 /// - get: GET请求
 /// - post: POST请求
