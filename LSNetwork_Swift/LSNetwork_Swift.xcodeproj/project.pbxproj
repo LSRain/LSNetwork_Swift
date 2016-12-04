@@ -13,6 +13,7 @@
 		512DF23D1DF4171E009A5B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512DF23B1DF4171E009A5B6E /* Main.storyboard */; };
 		512DF23F1DF4171E009A5B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512DF23E1DF4171E009A5B6E /* Assets.xcassets */; };
 		512DF2421DF4171E009A5B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512DF2401DF4171E009A5B6E /* LaunchScreen.storyboard */; };
+		512DF24B1DF4181B009A5B6E /* LSNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512DF24A1DF4181B009A5B6E /* LSNetworkTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		512DF23E1DF4171E009A5B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		512DF2411DF4171E009A5B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		512DF2431DF4171E009A5B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512DF24A1DF4181B009A5B6E /* LSNetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNetworkTools.swift; sourceTree = "<group>"; };
 		B141A9423615266EECEFABF6 /* Pods_LSNetwork_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSNetwork_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B76E2D787FBBDA1D7BEA85 /* Pods-LSNetwork_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSNetwork_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSNetwork_Swift/Pods-LSNetwork_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 		512DF2491DF4174E009A5B6E /* LSNetwork_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				512DF24A1DF4181B009A5B6E /* LSNetworkTools.swift */,
 			);
 			path = LSNetwork_Swift;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512DF24B1DF4181B009A5B6E /* LSNetworkTools.swift in Sources */,
 				512DF23A1DF4171E009A5B6E /* ViewController.swift in Sources */,
 				512DF2381DF4171E009A5B6E /* AppDelegate.swift in Sources */,
 			);
